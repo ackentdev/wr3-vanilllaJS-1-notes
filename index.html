@@ -9,7 +9,7 @@
 <body>
     <section id="awesome-section">This is my awesome section
         <ul id="my-list">
-            <h4>Things I think are awesome</h4>
+            <h4 id='title'>Things I think are awesome</h4>
             <li class="awesome-thing">Tigers</li>
             <li class="awesome-thing">Sharks</li>
             <li class="awesome-thing">Aspen Trees</li>
@@ -19,10 +19,10 @@
     <hr/>
     <form>
         <input type="text" id="my-input"/>
-        <button id='submit-btn'>Submit</button>
+        <button onclick="addThing(event)" id='submit-btn'>Submit</button>
     </form>
     <hr/>
-    <div class="div-one"></div>
+    <div id="div-one"></div>
 </body>
 <script src="index.js"></script>
 </html>
